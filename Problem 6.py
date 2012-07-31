@@ -12,6 +12,6 @@ Find the difference between the sum of the squares of the first one hundred natu
 '''
 
 def p6():
-	return sum(list(xrange(101)))**2 -sum([i**2 for i in xrange(101)])
+	return sum(xrange(101))**2 -sum([i**2 for i in xrange(101)])
 
 print p6()
